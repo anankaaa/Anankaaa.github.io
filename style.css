@@ -240,6 +240,8 @@ html {
     margin: 1rem;
     background-color: #fff;
     box-shadow: .3rem .3rem .5rem #777;
+    width: 30rem;
+    height: 40rem;
 }
 
 .project:hover {
@@ -266,18 +268,24 @@ html {
 
 .project-img {
     width: 25rem;
+    padding: 2rem;
+}
+
+.buttons {
+    flex-direction: row;
 }
 
 .project-link {
-    font-size: 2rem;
+    font-size: 1.2rem;
     font-weight: 500;
-    color: #333;
+    color: #f7cc0c;
+    background-color: #555;
     letter-spacing: .1rem;
     border: 0.2rem solid #dddadb;
     border-radius: 20px;
     padding: 0.5rem;
-    margin: 0.5rem 0;
-    background-color: #fff;
+    margin: 0.5rem 0.5rem;
+
     box-shadow: .2rem .2rem .3rem #888;
 }
 
