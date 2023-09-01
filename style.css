@@ -65,7 +65,7 @@ html {
     height: 30rem;
     object-fit: cover;
     border-radius: 50%;
-    border: 1rem ridge #feffff;
+    border: .1rem dotted #929494;
     opacity: 0.9;
 }
 
@@ -268,6 +268,7 @@ html {
 
 .project-img {
     width: 25rem;
+    height: 22rem;
     padding: 2rem;
 }
 
